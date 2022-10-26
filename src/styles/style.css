@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    margin-bottom: 20px;
+    background-color: rgb(175, 224, 224);
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+}
+
+#section{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.div{
+    width: 200px;
+    height: 140px;
+    background-color: rgb(202, 202, 255);
+    border: 1px solid rgba(0, 0, 0, 0.575);
+}
